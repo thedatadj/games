@@ -1,4 +1,4 @@
-import bread from './UnderConstruction.svg'
+import bread from './UnderConstruction.png'
 import './placeholder.css'
 
 const Placeholder = () =>
