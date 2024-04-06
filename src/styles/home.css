@@ -1,6 +1,15 @@
 .home-title
 {
-    font-size: 5em;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 10em;
     color: #F23D3D;
-    text-shadow: 0em 0em 0.3em #FF204E;
+    text-shadow: 0em 0em 0.3em #f56884;
+}
+
+@media (width <= 480px)
+{
+    .home-title
+    {
+        font-size: 8em;
+    }
 }
