@@ -1,7 +1,11 @@
+import Placeholder from './placeholder/Placeholder'
 const TikTak = () =>
 {
     return (
-        <h1>Tik Tak Toe</h1>
+        <>
+            <h1 style={{color: "white"}}>Coming soon!</h1>
+            <Placeholder />
+        </>
     )
 }
 export default TikTak
