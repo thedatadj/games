@@ -1,11 +1,11 @@
 // Styles and Assets
-import title from '../assets/games-title.png'
+import '../styles/home.css'
 
 const Home = () =>
 {
     return (
-        <main>
-            <img src={title} alt='title-card'/>
+        <main className='body home'>
+            <h1 className='home-title'>Games</h1>
         </main>
     )
 }
