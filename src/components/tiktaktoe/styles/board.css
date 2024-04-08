@@ -1,0 +1,37 @@
+.square
+{
+    background: #fff;
+    border: 0.05em solid #999;
+    float: left;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1em;
+    height: 20svh;
+    margin-right: -0.1em;
+    margin-top: -0.1em;
+    padding: 0;
+    text-align: center;
+    width: 20svh;
+}
+.board-row:after
+{
+    clear: both;
+    content: '';
+    display: table;
+}
+.status
+{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.game0
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info
+{
+    margin-left: 20px;
+}

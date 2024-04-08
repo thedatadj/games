@@ -1,10 +1,9 @@
-import Placeholder from './placeholder/Placeholder'
+import Board from './tiktaktoe/Board'
 const TikTak = () =>
 {
     return (
         <>
-            <h1 style={{color: "white"}}>Coming soon!</h1>
-            <Placeholder />
+            <Board />
         </>
     )
 }
