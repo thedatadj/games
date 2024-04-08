@@ -33,5 +33,39 @@
 
 .game-info
 {
-    margin-left: 20px;
+    margin-left: 2em;
+    color: white;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.game-info button
+    {
+        height: 6svh;
+        width: 20svw;
+        font-size: 0.8em;
+        border-radius: 1em;
+        background-color: #fff;
+    }
+
+@media (width <= 480px)
+{
+    .game0
+    {
+        flex-direction: column;
+    }
+    .game-info
+    {
+        margin: 0;
+        color: white;
+        font-size: 2em;
+    }
+    .game-info button
+    {
+        height: 5svh;
+        width: 65svw;
+        font-size: 1em;
+        border-radius: 1em;
+        background-color: #fff;
+    }
 }

@@ -1,14 +1,11 @@
 // styles
 import './styles/board.css'
 // Functions
-import {useState} from 'react'
 // Components
 import Square from './Square'
 
-const Board = () =>
+const Board = ({ xIsNext, squares, onPlay}) =>
 {
-    const [xIsNext, setXIsNext] = useState(true)
-    const [squares, setSquares] = useState([null, null, null, null, null, null, null, null, null])
     const handleClick = (i) =>
     {
         if (squares[i] || calculateWinner(squares))
@@ -24,9 +21,9 @@ const Board = () =>
         {
             nextSquares[i] = 'O'
         }
-        setSquares(nextSquares)
-        setXIsNext(!xIsNext)
+        onPlay(nextSquares)
     }
+
     const winner = calculateWinner(squares)
     let status
     if (winner)
@@ -37,6 +34,7 @@ const Board = () =>
     {
         status = "Next player: " + (xIsNext ? "X" : "O")
     }
+
     return (
         <>
             <div className='status'>{status}</div>
