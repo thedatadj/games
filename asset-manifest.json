@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/games/static/css/main.bce4648c.css",
-    "main.js": "/games/static/js/main.e7e50897.js",
-    "static/media/UnderConstruction.png": "/games/static/media/UnderConstruction.a1a84a5a9c323f6f1717.png",
+    "main.css": "/games/static/css/main.ee1664ba.css",
+    "main.js": "/games/static/js/main.f8276d7f.js",
     "index.html": "/games/index.html",
-    "main.bce4648c.css.map": "/games/static/css/main.bce4648c.css.map",
-    "main.e7e50897.js.map": "/games/static/js/main.e7e50897.js.map"
+    "main.ee1664ba.css.map": "/games/static/css/main.ee1664ba.css.map",
+    "main.f8276d7f.js.map": "/games/static/js/main.f8276d7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bce4648c.css",
-    "static/js/main.e7e50897.js"
+    "static/css/main.ee1664ba.css",
+    "static/js/main.f8276d7f.js"
   ]
 }
