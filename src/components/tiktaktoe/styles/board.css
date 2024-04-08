@@ -6,12 +6,12 @@
     font-size: 3em;
     font-weight: bold;
     line-height: 1em;
-    height: 20svh;
+    height: 13svh;
     margin-right: -0.1em;
     margin-top: -0.1em;
     padding: 0;
     text-align: center;
-    width: 20svh;
+    width: 13svh;
 }
 .board-row:after
 {
