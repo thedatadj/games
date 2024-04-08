@@ -1,9 +1,9 @@
-import Board from './tiktaktoe/Board'
+import Game from './tiktaktoe/Game'
 const TikTak = () =>
 {
     return (
         <>
-            <Board />
+            <Game />
         </>
     )
 }
