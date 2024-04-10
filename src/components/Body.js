@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 // Components
 import Home from './Home'
 import TikTak from './TikTak'
+import Rain from './Rain'
 
 const Body = () =>
 {
@@ -13,6 +14,7 @@ const Body = () =>
             <Routes>
                 <Route path='/games' element={<Home />} />
                 <Route path='/games/tiktaktoe' element={<TikTak />}/>
+                <Route path='/games/rain' element={<Rain />}/>
             </Routes>
         </body>
     )
