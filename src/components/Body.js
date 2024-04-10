@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 // Components
 import Home from './Home'
 import TikTak from './TikTak'
-import Rain from './Rain'
+import Rain from './rain/Rain'
 
 const Body = () =>
 {
