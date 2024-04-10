@@ -3,9 +3,9 @@
     background-color: #A0153E;
     height: 12.5svh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 .games
 {
@@ -25,4 +25,11 @@
 {
     background-color: #FF204E;
     color: white;
+}
+@media (width <= 480px)
+{
+    .games
+    {
+        width: 50svw;
+    }
 }

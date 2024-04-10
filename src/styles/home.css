@@ -19,3 +19,10 @@
 {
     background-color: #FF204E;
 }
+@media (width <= 480px)
+{
+    .games-page
+    {
+        font-size: 4em;
+    }
+}
