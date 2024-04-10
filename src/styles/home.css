@@ -1,15 +1,21 @@
-.home-title
+.games-page
 {
+    display: flex;
+    flex-direction: column;
     font-family: 'ArcadeClassic', sans-serif;
-    font-size: 10em;
-    color: #F23D3D;
-    text-shadow: 0em 0em 0.3em #f56884;
+    font-size: 6em;
 }
 
-@media (width <= 480px)
+#games-title
 {
-    .home-title
-    {
-        font-size: 8em;
-    }
+    color: white;
+    text-decoration: none;
+    text-shadow: 0em 0em 0.3em #f56884;
+    padding: 1svh 2svw 1svh 2svw;
+    justify-self: center;
+    text-align: center;
+}
+#games-title:hover
+{
+    background-color: #FF204E;
 }

@@ -1,11 +1,14 @@
 // Styles and Assets
 import '../styles/home.css'
+// Functions
+import { Link } from 'react-router-dom'
 
 const Home = () =>
 {
     return (
-        <main className='body home'>
-            <h1 className='home-title'>Games</h1>
+        <main className='games-page'>
+            <Link to='/games/tiktaktoe' id='games-title'>Tik Tak Toe</Link>
+            <Link to='/games/rain' id='games-title'>Rain</Link>
         </main>
     )
 }

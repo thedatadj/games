@@ -4,26 +4,25 @@
     height: 12.5svh;
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 100%;
     align-items: center;
 }
-.game
+.games
 {
     margin: 0em;
-    padding: 4.4svh 1svw 4.4svh 1svw;
+    padding: 2.4svh 1svw 2.4svh 1svw;
+    width: 20svw;
     text-decoration: none;
     color: white;
     text-align: center;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 4em;
+    color: #F23D3D;
+    text-shadow: 0em 0em 0.3em #f56884;
+    justify-self: center;
 }
-.game:hover
+.games:hover
 {
     background-color: #FF204E;
-}
-.game.home
-{
-    text-decoration: none;
     color: white;
-    font-size: 2em;
-    padding: 3.4svh 1svw 3.4svh 1svw;
-    font-family: 'ArcadeClassic', sans-serif;
 }
