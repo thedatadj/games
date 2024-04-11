@@ -9,6 +9,7 @@ const Home = () =>
         <main className='games-page'>
             <Link to='/games/tiktaktoe' id='games-title'>Tik Tak Toe</Link>
             <Link to='/games/rain' id='games-title'>Rain</Link>
+            <Link to='/games/devils' id='games-title'>Devils vs Saints</Link>
         </main>
     )
 }

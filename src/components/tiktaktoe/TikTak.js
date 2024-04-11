@@ -2,7 +2,7 @@ import Board from './Board'
 // functions
 import {useState} from 'react'
 
-const Game = () =>
+const TikTak = () =>
 {
     const [history, setHistory] = useState([Array(9).fill(null)])
     const [currentMove, setCurrentMove] = useState(0)
@@ -51,4 +51,4 @@ const Game = () =>
         </div>
     )
 }
-export default Game
+export default TikTak

@@ -1,0 +1,50 @@
+.canvas
+{
+    height: 400px;
+    width: 400px;
+    background-color: #D1F2EB;
+    display: grid;
+    grid-template: 250px 30px 120px / 100px 200px 100px;
+}
+.land-right
+{
+    background-color: #E59866 ;
+    grid-area: 2 / 1 / span 2 / span 1;
+}
+.land-left
+{
+    background-color: #E59866 ;
+    grid-area: 2 / 3 / span 2 / span 1;
+}
+.river
+{
+    background-color: #85C1E9;
+    grid-area: 3 / 2 / span 1 / span 1;
+}
+.cha
+{
+    width: 20px;
+    height: 50px;
+    position: relative;
+}
+.devil
+{
+    background-color: #E74C3C;
+    top: 200px;
+    left: 10px;
+}
+.saint
+{
+    background-color: white;
+    top: 200px;
+    left: -40px;
+}
+.boat
+{
+    background-color: #EDBB99;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    top: 260px;
+    left: -190px;
+}
